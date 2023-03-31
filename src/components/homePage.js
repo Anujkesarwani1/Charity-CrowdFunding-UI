@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import NavBar from "./NavBar";
+import Campaigns from "./Campaigns";
 
 const HomePage = () => {
-    return (
-        <h1>This is a homepage thanks for visit!</h1>
-    );
-}
+  return (
+    <>
+      <NavBar />
+      <Campaigns/>
+    </>
+  );
+};
 
 export default HomePage;
